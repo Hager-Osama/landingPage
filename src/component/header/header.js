@@ -15,13 +15,6 @@ const onClick = () => {
   window.open(`https://mail.google.com/mail/u/0/?view=cm&fs=1&to=${encodeURIComponent(emailAddress)}`);
 };
 
-  const [phoneNumber, setPhoneNumber] = useState("01289195094");
-
-  const onClickPhoneIcon = () => {
-    // Open the phone dialer
-    window.open("tel:" + phoneNumber);
-  };
-
   return (
    <div className='allHeader'>
     <Navbar expand="md">
@@ -39,8 +32,8 @@ const onClick = () => {
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
            <h5>Contact Us 
-           <a  className="icons" href="#gmail" onClick={onClick}><i class="fa-solid fa-envelope"></i></a>
-           <a href="#phone" className="icons" onClick={onClickPhoneIcon}><i class="fa-solid fa-phone-volume"></i></a></h5>
+           <a  className="icons" href="#gmail" onClick={onClick}><i class="fa-regular fa-envelope"></i></a>
+           </h5>
           </Navbar.Text>
         </Navbar.Collapse>
       </Container>
