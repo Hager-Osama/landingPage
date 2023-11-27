@@ -1,0 +1,22 @@
+.about{
+  margin:115px 0 ;  
+}
+.about-us{
+    width:50% ; 
+    font-size:23px; 
+} 
+.image{
+    width: 40% ;
+}
+@media (min-width:360px) and (max-width: 767px) {
+    .about {
+      flex-wrap: wrap;   
+    }
+    .image ,.about-us {
+      width: 100%;
+      margin: 20px 10px;
+    }
+    .about-us img{
+        width:130px;
+    }
+  }

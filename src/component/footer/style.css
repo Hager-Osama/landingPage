@@ -1,0 +1,14 @@
+.footer{
+    background:#616161; 
+    color: rgba(255, 255, 255, 0.83);
+    font-weight: 500;
+    padding: 10px 0;
+}
+@media (min-width: 360px) and (max-width: 767px){
+    .footer>div{
+       flex-wrap: wrap;   
+    }
+    .footer div:last-of-type{
+        margin-top:6px ;
+    }
+}
