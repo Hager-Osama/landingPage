@@ -34,23 +34,23 @@ const Countdown = ({ duration }) => {
         <div className="counter-down d-flex justify-content-center">
           <div >
             <div className="count"> <p>{days}</p></div>
-            <h5>days</h5>
+            <h6>days</h6>
           </div>
 
           <div >
            <div className="count"> <p>{hours}</p></div>
-            <h5>hours</h5>
+            <h6>hours</h6>
           </div>
 
           <div >
             <div className="count"> <p>{minutes}</p></div>
-            <h5>minutes</h5>
+            <h6>minutes</h6>
           </div>
 
 
           <div >
             <div className="count"><p>{seconds}</p></div>
-            <h5>seconds</h5>
+            <h6>seconds</h6>
           </div>
         </div>
       </Container>

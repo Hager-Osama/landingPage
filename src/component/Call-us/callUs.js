@@ -29,9 +29,10 @@ const CallUs = () => {
    <div className='backGround' >
     <Container>
      <div className='text text-center align-center'>
+      <div>
       <h1>Be the first to know
-         <br/> when the <span>new version</span>  is <span>available</span> </h1>
-         
+       when the <span>new version</span>  is <span>available</span> </h1>
+       </div>   
           <input className="input" type="text" spellCheck="false" 
           name='user_email' placeholder="Enter your email" required
           pattern='[^@\s]+@[^@\s]+\.[a-zA-Z]{2,}'/>

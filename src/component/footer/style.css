@@ -4,7 +4,7 @@
     font-weight: 500;
     padding: 10px 0;
 }
-@media (min-width: 360px) and (max-width: 767px){
+@media (min-width:280px) and (max-width: 767px){
     .footer>div{
        flex-wrap: wrap;   
     }
