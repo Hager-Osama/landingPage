@@ -17,9 +17,9 @@ const About = () => {
         <h1>Sciencore</h1>
         <img src={line} width="170"/>
         <h4>One place for all the medical equipment you need.</h4><br/>
-        <p>"Since 2020, our focus has been on leading the way in the medical industry.
+        <p>Since 2020, our focus has been on leading the way in the medical industry.
              We are dedicated to supplying the latest innovative technologies and tools
-             to medical centers and doctors across Egypt, Saudi Arabia, and beyond."</p>
+             to medical centers and doctors across Egypt, Saudi Arabia, and beyond.</p>
       </div>
     </div>
     </Row>

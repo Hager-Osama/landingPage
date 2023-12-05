@@ -8,7 +8,7 @@ import Countdown from './countdownTimer';
 
 const HeaderComponent = () => {
 
-  const [emailAddress, setEmailAddress] = useState("sciencore5@gmail.com");
+  const [emailAddress, setEmailAddress] = useState("contact@sciencore.com");
 
 const onClick = () => {
   // Open Gmail with properly encoded email address

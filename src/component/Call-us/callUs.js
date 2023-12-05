@@ -12,7 +12,7 @@ const CallUs = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs.sendForm('service_3kn4q06', 'template_w2wohvf', form.current, 'TyETergG5Mfn803PQ')
+    emailjs.sendForm('service_hemkm52', 'template_qcgukcq', form.current, 'A26E-VmzEt3DFIn9x')
       .then((result) => {
         console.log(result.text);
         e.target.reset();
